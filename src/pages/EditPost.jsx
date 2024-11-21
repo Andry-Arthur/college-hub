@@ -55,7 +55,7 @@ const EditPost = ({data}) => {
           .delete()
           .eq('id', id); 
       
-        window.location = "http://localhost:3000/";
+        window.location = "http://localhost:5173/";
     }
 
     if (loading) {
